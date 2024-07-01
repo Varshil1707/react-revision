@@ -35,7 +35,7 @@ export class AuthService {
             throw error
         }
     }
-
+    // Commented
     async getCurrentUser() {
     try {
         await this.account.get()
